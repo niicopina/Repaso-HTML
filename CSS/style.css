@@ -1,0 +1,9 @@
+p {
+    color: rgb(116, 116, 208);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+li { 
+    color: red;
+}
