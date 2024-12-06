@@ -1,6 +1,6 @@
 p {
     color: rgb(116, 116, 208);
-    font-family: Montserrat;
+    font-family: "montserrat";
     font-size: 20px;
     font-weight: bold;
     text-align: start;
@@ -10,7 +10,12 @@ button {
     letter-spacing: 2px;
     font-weight: bold;
 }
+div {
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+}
 
-li { 
-    color: red;
+.formulario {
+    background: rgb(187, 116, 116);
 }
