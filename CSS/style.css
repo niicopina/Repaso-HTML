@@ -1,9 +1,16 @@
 p {
     color: rgb(116, 116, 208);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Montserrat;
     font-size: 20px;
     font-weight: bold;
+    text-align: start;
+    line-height: 1.5; 
 }
+button {
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
 li { 
     color: red;
 }
