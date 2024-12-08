@@ -18,4 +18,24 @@ div {
 
 .formulario {
     background: rgb(187, 116, 116);
+    padding: 10px;
+}
+.form_input {
+    padding: 6px 10px;
+    width: 90%;
+    margin: 10px;
+}
+
+.form_submit {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: blue;
+    width: 50%;
+}
+
+.box {
+    background: red;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
 }
