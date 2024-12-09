@@ -9,6 +9,8 @@ body {
     width: 300px;
     margin: auto;
     margin-top: 20px;
+    border: 7px solid grey;
+    border-radius: 10px 6px 10px 6px;
 }
 h1 {
     padding-top: 10px;
