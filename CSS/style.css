@@ -15,10 +15,19 @@ div {
     width: 200px;
     height: 200px;
 }
-
+h1 {
+    font-family: sans-serif;
+    width: 35%;
+    margin-left: 10px;
+    text-align: center;
+}
 .formulario {
-    background: rgb(187, 116, 116);
+    background: rgb(155, 139, 139);
     padding: 10px;
+    margin: 10px 50px 50px 50px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 .form_input {
     padding: 6px 10px;
@@ -29,8 +38,9 @@ div {
 .form_submit {
     letter-spacing: 2px;
     text-transform: uppercase;
-    background: blue;
-    width: 50%;
+    background: rgb(103, 103, 204);
+    width: 40%;
+    margin-left: 120px;
 }
 
 .body_enlace {
