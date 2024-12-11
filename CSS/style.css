@@ -16,13 +16,14 @@ div {
     height: 200px;
 }
 h1 {
+    background-color: rgb(180, 219, 206);
     font-family: sans-serif;
-    width: 35%;
+    width: 38%;
     margin-left: 10px;
     text-align: center;
 }
 .formulario {
-    background: rgb(155, 139, 139);
+    background: rgb(191, 240, 240);
     padding: 10px;
     margin: 10px 50px 50px 50px;
     width: 30%;
@@ -38,7 +39,7 @@ h1 {
 .form_submit {
     letter-spacing: 2px;
     text-transform: uppercase;
-    background: rgb(103, 103, 204);
+    background: rgb(197, 197, 215);
     width: 40%;
     margin-left: 120px;
 }
