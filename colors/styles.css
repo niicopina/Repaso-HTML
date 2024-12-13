@@ -1,7 +1,11 @@
 .box {
+    padding: 20px 50px;
     width: 200px;
-    height: 200px;
+    height: 100px;
     background: #fdc;
     margin: 20px;
+    text-align: center;
+    border-top: 3px solid #fa2;
+    font-weight: bold;
 }
 
