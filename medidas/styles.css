@@ -3,6 +3,11 @@ div {
     padding: 20px;
     font-family: sans-serif;
     border-left: 2px solid #999;
+    font-size: 14px;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    box-sizing: border-box;
 }
 h1 {
     margin: 0;
@@ -15,4 +20,5 @@ span {
 }
 p {
     color: #555;
+    font-size: 1.25;
 }
