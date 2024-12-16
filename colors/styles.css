@@ -1,11 +1,27 @@
+body {
+    margin: 0;
+    background-color: rgb(112, 14, 14);
+}
 .box {
-    padding: 20px 50px;
-    width: 200px;
-    height: 100px;
-    background: #fdc;
-    margin: 20px;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(#000, transparent);
+    margin: 0;
     text-align: center;
     border-top: 3px solid #fa2;
     font-weight: bold;
+    display: flex;
+    
+}
+.card {
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(rgb(159, 4, 4),#000);
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 7px;
+    border-top: 6px solid rgb(226, 9, 9);
+    color: aliceblue;
+    font-family: sans-serif
 }
 
