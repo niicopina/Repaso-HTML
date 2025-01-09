@@ -10,15 +10,26 @@
     <form action="">
         <h2>Formulario de contacto</h2>
         <div class="form-input">
-            <input type="text" placeholder="Nombre completo">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" placeholder="Willy Williamson" id="nombre">
         </div>
         <div class="form-input">
-            <input type="email" placeholder="Email">
+            <label for="email">Email</label>
+            <input type="email" placeholder="willy@wonka.com" id="email">
         </div>
         <div class="form-input">
-            <textarea maxlength="500" placeholder="Escribe tu mensaje"></textarea>
+            <label for="mensaje">Mensaje</label>
+            <textarea maxlength="500" placeholder="Escribe tu mensaje" id="mensaje"></textarea>
             <!--Existen atributos BOLEANOS que no necesitan un valor especifico, con ponerlos se activan,
             en este caso por ejemplo podrias ponerle: readonly, disabled, required. True or False -->
+        </div>
+        <div class="form-input">
+            <label>Acepto los términos y condiciones
+                <input type="checkbox" class="checkbox">
+            </label>
+        </div>
+        <div class="form-input">
+            <button>ENVIAR</button>
         </div>
     </form>
 </body>
