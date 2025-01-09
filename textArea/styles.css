@@ -3,6 +3,7 @@ body {
     font-family: sans-serif;
     color: #ddd;
     background-color: #222;
+    background: linear-gradient(to bottom, #333, #000);
 }
 h2 {
     text-align: center;
@@ -54,4 +55,13 @@ label {
 .checkbox {
     width: auto;
     height: 10px;
+}
+fieldset {
+    margin: 10px 20px;
+    border: 1px solid #ddd6;
+    border-radius: 5px;
+}
+legend {
+    padding: 0 8px;
+    color: #666;
 }
