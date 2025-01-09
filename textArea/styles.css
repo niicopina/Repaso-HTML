@@ -25,7 +25,7 @@ form {
 .form-input {
     padding: 6px 20px;
 }
-input, textarea {
+input, textarea, select {
     width: 100%;
     color: #ddd;
     box-sizing: border-box;
@@ -37,6 +37,11 @@ input, textarea {
     background-color: transparent;
     resize: vertical;
 }
+
+option {
+    background-color: #222;
+}
+
 textarea {
     min-width: 100%;
     resize: vertical;

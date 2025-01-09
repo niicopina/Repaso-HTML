@@ -9,6 +9,7 @@
 <body>
     <form action="">
         <h2>Formulario de contacto</h2>
+        <!--Inputs simples-->
         <div class="form-input">
             <label for="nombre">Nombre completo</label>
             <input type="text" placeholder="Willy Williamson" id="nombre">
@@ -16,6 +17,26 @@
         <div class="form-input">
             <label for="email">Email</label>
             <input type="email" placeholder="willy@wonka.com" id="email">
+        </div>
+        <!--Select input, Datalist & option-->
+        <div class="form-input">
+            <label for="select">Tipo de usuario</label>
+            <select name="" id="select" name="type-of-user">
+                <option value="user1">Personal</option>
+                <option value="user2">Compañía</option>
+                <option value="user3">Start Up</option>
+                <option value="user4">Gubernamental</option>
+            </select>
+        </div>
+        <div class="form-input">
+            <label for="referente">Referente</label>
+            <input list="referente">
+            <datalist id="referente" name="type-of-user">
+                <option>Un amigo</option>
+                <option>Linkedin</option>
+                <option>sitio web</option>
+                <option>Gubernamental</option>
+            </datalist>
         </div>
         <div class="form-input">
             <label for="mensaje">Mensaje</label>
