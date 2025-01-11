@@ -65,3 +65,8 @@ legend {
     padding: 0 8px;
     color: #666;
 }
+
+a {
+    color: #69f;
+    text-decoration: none;
+}
