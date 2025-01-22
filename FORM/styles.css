@@ -37,6 +37,7 @@ input, textarea, select {
     box-shadow: 0px 0px 15px #0009;
     background-color: transparent;
     resize: vertical;
+    font-family: inherit;
 }
 
 option {
@@ -47,7 +48,7 @@ textarea {
     min-width: 100%;
     resize: vertical;
     min-height: 100px;
-    font-family: sans-serif;
+    font-family: inherit;
 }
 label {
     line-height: 2;
